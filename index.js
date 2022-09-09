@@ -1,3 +1,7 @@
-module.exports = function () {
-    console.log('Happiness Awaits!')
+module.exports = function (lang) {
+    if(lang === "fr") {
+        console.log('Bonjour mon ami!')
+    } else {
+        console.log('Hello my friend!')
+    }
 }
